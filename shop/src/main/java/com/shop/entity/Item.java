@@ -37,6 +37,6 @@ public class Item {
     private ItemSellStatus itemSellStatus;
 
     private LocalDateTime regTime;
-    
+
     private LocalDateTime updateTime;
 }
