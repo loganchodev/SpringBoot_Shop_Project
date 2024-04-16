@@ -37,6 +37,33 @@ body {
     }
 }
 
+.navbar {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    color: #8B0000;
+}
+
+.nav-link:hover {
+    color: #8B0000;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.btn {
+    color: #8B0000;
+    border: 1px solid #8B0000;
+}
+
+.btn:hover{
+    background-color: #8B0000;
+    border: 1px solid #8B0000;
+}
+
 .content {
     z-index: 1;
     flex: 1;
@@ -59,24 +86,3 @@ body {
     right: 0;
 }
 
-.navbar {
-    background-color: transparent;
-    border: none;
-    padding: 10px 20px;
-    color: #8B0000;
-}
-
-.navbar-nav, .navbar-brand, .nav-item, .nav-link {
-    color: #8B0000; !important;
-    font-size: 1.2rem;
-}
-
-.btn {
-    color: #8B0000;
-    border: 1px solid #8B0000;
-}
-
-.btn:hover{
-    background-color: #8B0000;
-    border: 1px solid #8B0000;
-}
