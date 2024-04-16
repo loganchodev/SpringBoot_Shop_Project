@@ -19,7 +19,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('../images/driving2.jpg');
+    background-image: url('../images/wines-1.jpg');
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -50,7 +50,7 @@ body {
 
 .footer {
     background-color: transparent;
-    color: white;
+    color: #8B0000;
     text-align: center;
     padding: 15px 0;
     position: fixed;
@@ -59,16 +59,24 @@ body {
     right: 0;
 }
 
-.navbar-custom {
+.navbar {
     background-color: transparent;
     border: none;
     padding: 10px 20px;
+    color: #8B0000;
 }
 
-.navbar-custom .navbar-brand, .navbar-custom .nav-link {
-    color: white;
+.navbar-nav, .navbar-brand, .nav-item, .nav-link {
+    color: #8B0000; !important;
+    font-size: 1.2rem;
 }
 
-.navbar-custom .navbar-brand:hover, .navbar-custom .nav-link:hover {
-    color: #e3f2fd;
+.btn {
+    color: #8B0000;
+    border: 1px solid #8B0000;
+}
+
+.btn:hover{
+    background-color: #8B0000;
+    border: 1px solid #8B0000;
 }
