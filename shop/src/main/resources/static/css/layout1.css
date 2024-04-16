@@ -1,0 +1,74 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* 가로 스크롤바가 생기는 것을 방지 */
+    overflow-y: hidden;
+}
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/driving2.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    animation: backgroundZoom 10s ease-in-out forwards; /* 애니메이션 적용 */
+}
+
+@keyframes backgroundZoom {
+    from {
+        transform: scale(1.2);
+        opacity: 0.95;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.content {
+    z-index: 1;
+    flex: 1;
+    padding: 50px 200px; /* 콘텐츠 패딩 조절 */
+    color: white; /* 텍스트 색상 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 세로 중앙 정렬 */
+    align-items: center; /* 가로 중앙 정렬 */
+}
+
+.footer {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-custom {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+}
+
+.navbar-custom .navbar-brand, .navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .navbar-brand:hover, .navbar-custom .nav-link:hover {
+    color: #e3f2fd;
+}

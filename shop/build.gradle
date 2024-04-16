@@ -32,9 +32,11 @@ dependencies {
 
 
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+//시큐리티
 
 
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+//시큐리티
 
 
 	compileOnly 'org.projectlombok:lombok'
